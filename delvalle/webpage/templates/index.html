@@ -1,0 +1,99 @@
+{% load static %}
+<!DOCTYPE HTML>
+<!-- Website Template by freewebsitetemplates.com -->
+<html>
+<head>
+	{% block head %}
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="description" content="">
+            <meta name="author" content="">
+
+            <title>
+                {% block title %}Dr. Raúl Del Valle{% endblock title %}
+            </title>
+
+            {% block css %}
+                <!-- Bootstrap 3.3.5 -->
+                <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+                <link rel="stylesheet" href="{% static 'css/style.css' %}">
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+                <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+            {% endblock css %}
+                <script src="{% static 'plugins/jQuery/jQuery-2.1.4.min.js' %}"></script>
+            {% block extracss %}{% endblock extracss %}
+            {% block extrahead %}{% endblock extrahead %}
+
+    {% endblock head %}
+</head>
+<body>
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand"><i class="fa fa-eye"></i> <span class="nombre">Dr. Raúl Del Valle</span> <br> <span class="especialidad">Médico Oftalmólogo</span></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+
+          </ul>
+        </li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">CV</a></li>
+        <li><a href="#">De Interés</a></li>
+        <li><a href="#">Galería</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<img class="banner" src="{% static 'images/banneroft.jpg' %}">
+<div class = "row">
+	<div class="col-xs-12">
+		<div class = "col-xs-12 col-sm-6 col-md-6 imghome">
+			<img src="{% static 'images/index.JPG' %}">
+		</div>
+		<div class = "col-xs-12 col-sm-6 col-md-6" id = "resumhome">
+			<p>El <strong>Dr. Raúl Del Valle</strong> es un <strong>reconocido Médico Venezolano</strong> graduado de la <i>Universidad de Carabobo</i> en el año 1980, con 30 años de experiencia en Oftalmología. Se especializa en los distintos campos de esta área como son :</p>
+			<br></br>
+			<b>
+			<br><strong>• Las enfermedades del Segmento Anterior del ojo.
+			<br>• Cirugía de cataratas por Facoemulsificación.
+			<br>• Cirugía Refractiva Lasik.
+			<br>• Uveítis.
+			<br>• Neuroftalmología.</strong></b>
+		</div>
+	</div>
+</div>
+
+{% block script %}
+    <!-- jQuery 2.1.4 -->
+    <script src="{% static 'js/jquery.js' %}"></script>
+    <!-- Bootstrap 3.3.5 -->
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <!-- SlimScroll -->
+    <script src="{% static 'js/plugins/slimScroll/jquery.slimscroll.min.js' %}"></script>
+    <!-- FastClick -->
+    <script src="{% static 'js/plugins/fastclick/fastclick.min.js' %}"></script>
+    <!-- Select2 -->
+    <script src="{% static 'js/plugins/select2/select2.full.min.js' %}"></script>
+
+    <!-- ChartJs -->
+    <script src="{% static 'js/plugins/chartjs/Chart.min.js' %}"></script>
+
+{% endblock script %}
+{% block custom_script %}{% endblock custom_script %}
+</body>
+</html>
