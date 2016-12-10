@@ -5,4 +5,6 @@ from views import *
 
 urlpatterns = [
     url(r'^$', Index.as_view(), name='index'),
+    url(r'^curriculum/$', CV.as_view(), name='cv'),
+    url(r'^de-interes/$', Interes.as_view(), name='deinteres'),
 ]

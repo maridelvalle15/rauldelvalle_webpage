@@ -53,8 +53,18 @@ nav{
 
 }
 
+.navbar-brand:hover{
+    background-color: #3c948b !important;
+}
+
 .navbar-brand i{
     color: white;
+}
+
+.insidecover{
+    padding: 10px;
+    background-color: #F0F0F0;
+    font-size: 16px;
 }
 
 .nombre{
@@ -71,6 +81,53 @@ nav{
     margin-top: 82px;
 }
 
+.imghome{
+    text-align: center;
+}
+
 .imghome img{
     width: 70%;
+}
+
+#resumhome{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.curriculumcover{
+    padding: 10px;
+    background-color: #F0F0F0;
+    text-align: center;
+    font-size: 18px;
+}
+
+#interes{
+    padding: 30px;
+    background-color: #F0F0F0;
+    font-size: 16px;
+}
+
+footer{ background-color: #E6E6E6;
+        border-color: #FFFFFF;
+        border-width: 20px;
+        height: 7em;
+        margin-top: 55px;
+        clear: both;
+        border-top: 2px solid #848484;
+        font: normal normal 16px "Ubuntu",sans-serif;
+        color: #2E2E2E;
+        text-decoration: none;
+}
+
+#contac-ubic{text-align: center;}
+
+#fin{   height:35px;
+        border-top: 1px solid #848484;
+        font: normal normal 13.5px "Ubuntu",sans-serif;
+        color: #2E2E2E;
+        background-color: #E6E6E6;
+}
+
+#pag {  margin-top: -5px;
+        color:#A4A4A4;
 }

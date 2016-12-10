@@ -6,3 +6,11 @@ from django.views.generic import TemplateView
 # Create your views here.
 class Index(TemplateView):
     template_name = 'index.html'
+
+
+class CV(TemplateView):
+    template_name = 'cv.html'
+
+
+class Interes(TemplateView):
+    template_name = 'interes.html'

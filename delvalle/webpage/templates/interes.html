@@ -3,7 +3,7 @@
 <!-- Website Template by freewebsitetemplates.com -->
 <html>
 <head>
-	{% block head %}
+    {% block head %}
             <meta charset="UTF-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,7 +28,7 @@
     {% endblock head %}
 </head>
 <body>
-	<nav class="navbar navbar-default">
+    <nav class="navbar navbar-default">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -61,24 +61,26 @@
 </nav>
 <img class="banner" src="{% static 'images/banneroft.jpg' %}">
 <div class = "row">
-	<div class="col-xs-12 homecover">
-        <div class="col-xs-11 insidecover">
-    		<div class = "col-xs-12 col-sm-6 col-md-6 imghome">
-    			<img src="{% static 'images/index.JPG' %}">
-    		</div>
-    		<div class = "col-xs-12 col-sm-6 col-md-6" id = "resumhome">
-    			<p>El <strong>Dr. Raúl Del Valle</strong> es un <strong>reconocido Médico Venezolano</strong> graduado de la <i>Universidad de Carabobo</i> en el año 1980, con 30 años de experiencia en Oftalmología. Se especializa en los distintos campos de esta área como son :</p>
-    			<b>
-    			<br><strong>• Las enfermedades del Segmento Anterior del ojo.
-    			<br>• Cirugía de cataratas por Facoemulsificación.
-    			<br>• Cirugía Refractiva Lasik.
-    			<br>• Uveítis.
-    			<br>• Neuroftalmología.</strong></b>
-    		</div>
-        </div>
-	</div>
+    <div class="col-xs-12 homecover">
+        <div class="col-md-9" col-md-push-2 id="interes">
 
-        <div class="row" id="contac-ubic">
+            <div class="row subtit-interes">
+                <span> <strong>¿Qué son las cataratas? </strong></span>
+            </div>
+                <br>La catarata es una opacidad del cristalino del ojo. Cuando vemos algo, los rayos de luz viajan a nuestro ojo a través de la pupila y se enfocan sobre la retina (una capa de células sensibles a la luz en la parte posterior del ojo), por medio del lente. Si su visión se ha vuelto borrosa, turbia o débil, o las cosas que ve no son tan brillantes o coloridas como solían verse, una catarata puede haberse desarrollado en uno o ambos ojos. Muchas personas describen la visión con cataratas como algo similar a ver a través del parabrisas sucio de un auto.</br>
+            <div class="row subtit-interes">
+                <br><strong>¿Qué es la uveítis?</strong>
+            </div>
+                <br>La uveítis es una inflamación de la úvea, formada por el iris, el cuerpo ciliar y la coroides. En conjunto, estos forman la capa media del ojo entre la retina y la esclerótica (parte blanca del ojo). La úvea contiene muchos vasos sanguíneos (las venas, arterias y capilares), que llevan la sangre hacia adentro y hacia afuera del ojo. Ya que la úvea nutre muchas partes importantes del ojo (como la retina), una inflamación de la úvea puede dañar su visión.</br>
+            <div class="row subtit-interes">
+                <br><strong>¿Qué es la presbicia?</strong>
+            </div>
+                <br>La presbicia, que literalmente significa "ojo envejecido", es una condición ocular relacionada con la edad que hace difícil ver las cosas de cerca. Cuando se es joven, el cristalino del ojo es suave y flexible. Éste cambia su forma fácilmente, lo que le permite enfocar objetos cercanos y lejanos. Después de los 40 años de edad, el cristalino se vuelve más rígido. Debido a que el lente no puede cambiar de forma tan fácilmente como antes, actividades como la lectura o ver cosas a corta distancia es más difícil. Esta condición normal se denomina presbicia.</br>
+        </div>
+
+    </div>
+
+    <div class="row" id="contac-ubic">
         <footer>
             <div class="col-xs-4">
                 <br><strong>Ubicación</strong>
