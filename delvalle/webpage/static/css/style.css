@@ -131,3 +131,138 @@ footer{ background-color: #E6E6E6;
 #pag {  margin-top: -5px;
         color:#A4A4A4;
 }
+
+
+#cv {   letter-spacing:0px;
+        font:normal 17px "Ubuntu",sans-serif;
+        margin-left: 200px;
+        background-color: #E6E6E6;
+        border-radius: 7px;
+}
+
+#titulo-cv {height:70px;
+            text-align: center;
+            margin-top: 40px;
+            letter-spacing:0px;
+            letter-spacing:0px;
+            font:normal 34px "Ubuntu",sans-serif;
+            color: #3c948b;
+}
+
+#fin{   height:35px;
+        border-top: 1px solid #848484;
+        font: normal normal 13.5px "Ubuntu",sans-serif;
+        color: #2E2E2E;
+        background-color: #E6E6E6;
+}
+
+#Ubicacion h4{
+    text-align: center;
+    margin-bottom: 0px;
+    font: normal normal 20px "Ubuntu",sans-serif;
+    color: #3c948b;
+    margin-left: 40px;
+}
+
+#Ubicacion2 h4{
+    text-align: center;
+    margin-bottom: -10px;
+    font: normal normal 20px "Ubuntu",sans-serif;
+    color: #E6E6E6;
+    margin-left: 40px;
+}
+
+#Ubicacion2 p{
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-right: 0px;
+    font: normal normal 15px "Ubuntu",sans-serif;
+    color: #2E2E2E;
+    margin-left: 1px;
+}
+
+#Ubicacion2 {
+    text-align: center;
+    margin-bottom: -10px;
+    margin-left: 20px;
+    margin-top: -13px;
+    font: normal normal 20px "Ubuntu",sans-serif;
+    color: #E6E6E6;
+    margin-left: 40px;
+}
+
+#Ubicacion p{
+    margin-bottom: 20px;
+    font: normal normal 15px "Ubuntu",sans-serif;
+    color: #2E2E2E;
+    margin-left: 40px;
+    margin-bottom: 30px
+}
+
+#Ubicacion iframe{
+    margin-left: 0px;
+    margin-bottom: 30px;
+    font: normal normal 15px "Ubuntu",sans-serif;
+    color: #2E2E2E;
+}
+
+#Contacto{
+    text-align: center;
+    font: normal normal 20px "Ubuntu",sans-serif;
+    color: #3c948b;
+    margin-left: 50px;
+}
+
+#Links{
+    text-align: center;
+    font: normal normal 20px "Ubuntu",sans-serif;
+    color: #3c948b;
+    margin-left: 50px;
+}
+
+#Correo h4{
+    text-align: left;
+    font: normal normal 20px "Ubuntu",sans-serif;
+    color: #3c948b;
+    margin-left: 40px;
+    margin-top: -0px;
+}
+
+#Correo p{
+    text-align: left;
+    font: normal normal 15px "Ubuntu",sans-serif;
+    color: #2E2E2E;
+    margin-left: 40px;
+    margin-top: -15px;
+    margin-bottom: 20px
+}
+
+#Links h4{
+    text-align: left;
+    font: normal normal 20px "Ubuntu",sans-serif;
+    color: #3c948b;
+    margin-left: 133px;
+    margin-top: -0px;
+}
+
+#Links p{
+    text-align: left;
+    font: normal normal 15px "Ubuntu",sans-serif;
+    color: #2E2E2E;
+    margin-left: 133px;
+    margin-top: -15px;
+}
+
+#Foto img{
+            height: 250px;
+            width: 500;
+            margin-bottom: 20px;
+}
+
+#Foto-Desc p{
+
+            margin-bottom: 20px;
+            margin-left: 70px;
+            margin-top: 60px;
+}

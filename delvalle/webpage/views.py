@@ -14,3 +14,11 @@ class CV(TemplateView):
 
 class Interes(TemplateView):
     template_name = 'interes.html'
+
+
+class Galeria(TemplateView):
+    template_name = 'galeria.html'
+
+
+class Contacto(TemplateView):
+    template_name = 'contacto.html'
